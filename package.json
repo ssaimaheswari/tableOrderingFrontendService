@@ -14,8 +14,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "NODE_OPTIONS=--openssl-legacy-provider node index.js",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider webpack --config webpack.config.js"
+    "start": "node server.js",
+    "build": "webpack --config webpack.config.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
